@@ -20,12 +20,12 @@ AWARD_Y_POS = 31
 AWARD_YEAR_X_POS = 350
 AWARD_YEAR_Y_POS = 15
 
-DEVBEST_TEXT_X_POS = 419
+DEVBEST_TEXT_X_POS = 418
 DEVBEST_TEXT_Y_POS = 31
 
 # Assets
-MEDAL_IMAGE = "assets/medal.png"
-BG_IMAGE = "assets/bg.png"
+MEDAL_IMAGE = "assets/medal2.png"
+BG_IMAGE = "assets/bg3.png"
 
 STANDARD_TTF = "assets/Roboto-Regular.ttf"
 BOLD_TTF = "assets/Roboto-Bold.ttf"
