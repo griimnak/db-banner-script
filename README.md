@@ -7,7 +7,12 @@ A python script for generating community award banners for devbest.com
 
 ![Alt Text](https://github.com/griimnak/db-banner-script/blob/master/samples/banner_sample525_.png)
 
+![Alt Text](https://github.com/griimnak/db-banner-script/blob/master/samples/banner_sample389_.png)
+
 ![Alt Text](https://github.com/griimnak/db-banner-script/blob/master/samples/banner_sample999_.png)
+
+![Alt Text](https://github.com/griimnak/db-banner-script/blob/master/samples/banner_sample366_.png)
+
 
 Variables to config in `script.py`
 ```python
