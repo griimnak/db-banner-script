@@ -12,32 +12,38 @@ A python script for generating community award banners for devbest.com
 Variables to config in `script.py`
 ```python
 # Fill these values
-USER = "Griimnak"
-AWARD = "Friendliest User"
+CONFIG["USER"] = "Griimnak"
+CONFIG["AWARD"] = "Friendliest User"
 
+CONFIG["OPEN_WHEN_COMPLETE"] = True
+# Should I open the image when done? True or False
 
 # These default values should be okay.
-AWARD_YEAR_TEXT = "2018 Community Awards"
-DEVBEST_TEXT = "DevBest.com"
+CONFIG["AWARD_YEAR_TEXT"] = "2018 Community Awards"
+CONFIG["DEVBEST_TEXT"] = "DevBest.com"
 
-USER_X_POS = 50
-USER_Y_POS = 15
+CONFIG["USER_X_POS"] = 50
+CONFIG["USER_Y_POS"] = 15
 
-AWARD_X_POS = 50
-AWARD_Y_POS = 31
+CONFIG["AWARD_X_POS"] = 50
+CONFIG["AWARD_Y_POS"] = 31
 
-AWARD_YEAR_X_POS = 350
-AWARD_YEAR_Y_POS = 15
+CONFIG["AWARD_YEAR_X_POS"] = 350
+CONFIG["AWARD_YEAR_Y_POS"] = 15
 
-DEVBEST_TEXT_X_POS = 419
-DEVBEST_TEXT_Y_POS = 31
+CONFIG["DEVBEST_TEXT_X_POS"] = 418
+CONFIG["DEVBEST_TEXT_Y_POS"] = 31
+
+CONFIG["BORDER"] = True
+CONFIG["BORDER_OUTER_COLOR"] = "black"
+CONFIG["BORDER_INNER_COLOR"] = "white"
 
 # Assets
-MEDAL_IMAGE = "assets/medal.png"
-BG_IMAGE = "assets/bg2.png"
+CONFIG["MEDAL_IMAGE"] = "assets/medal2.png"
+CONFIG["BG_IMAGE"] = "assets/bg.png"
 
-STANDARD_TTF = "assets/Roboto-Regular.ttf"
-BOLD_TTF = "assets/Roboto-Bold.ttf"
+CONFIG["STANDARD_TTF"] = "assets/Roboto-Regular.ttf"
+CONFIG["BOLD_TTF"] = "assets/Roboto-Bold.ttf"
 ```
 
 
